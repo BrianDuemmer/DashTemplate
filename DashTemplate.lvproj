@@ -85,10 +85,18 @@
 				</Item>
 				<Item Name="Controls" Type="Folder">
 					<Item Name="PIDControl.ctl" Type="VI" URL="../Custom Code/ConfigXML/typedefs/PIDControl.ctl"/>
+					<Item Name="MotorControl.ctl" Type="VI" URL="../Custom Code/ConfigXML/typedefs/MotorControl.ctl"/>
+					<Item Name="LimitControl.ctl" Type="VI" URL="../Custom Code/ConfigXML/typedefs/LimitControl.ctl"/>
+					<Item Name="EncoderControl.ctl" Type="VI" URL="../Custom Code/ConfigXML/typedefs/EncoderControl.ctl"/>
+					<Item Name="SetpointArrControl.ctl" Type="VI" URL="../Custom Code/ConfigXML/typedefs/SetpointArrControl.ctl"/>
+					<Item Name="BasicSubsystem.ctl" Type="VI" URL="../Custom Code/ConfigXML/typedefs/BasicSubsystem.ctl"/>
 				</Item>
 				<Item Name="ConfigUI_TemplateXML.vit" Type="VI" URL="../Custom Code/ConfigXML/ConfigUI_TemplateXML.vit"/>
 			</Item>
 			<Item Name="User" Type="Folder">
+				<Item Name="Controls" Type="Folder">
+					<Item Name="DriveSide.ctl" Type="VI" URL="../Custom Code/User/Controls/DriveSide.ctl"/>
+				</Item>
 				<Item Name="MainConfigUI.vi" Type="VI" URL="../Custom Code/User/MainConfigUI.vi"/>
 			</Item>
 		</Item>

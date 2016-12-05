@@ -14,90 +14,102 @@
 		<Item Name="Support" Type="Folder">
 			<Item Name="App EXE.ico" Type="Document" URL="../App EXE.ico"/>
 		</Item>
-		<Item Name="CustomCode" Type="Folder">
-			<Item Name="ConfigINI(deperacated)" Type="Folder">
-				<Item Name="TypeDefs" Type="Folder">
-					<Item Name="AdvancedMotor.ctl" Type="VI" URL="../Custom Code/ConfigINI(deperacated)/TypeDefs/AdvancedMotor.ctl"/>
-					<Item Name="EncoderConfig.ctl" Type="VI" URL="../Custom Code/ConfigINI(deperacated)/TypeDefs/EncoderConfig.ctl"/>
-					<Item Name="ControlData.ctl" Type="VI" URL="../Custom Code/ConfigINI(deperacated)/TypeDefs/ControlData.ctl"/>
-					<Item Name="LimitConfig.ctl" Type="VI" URL="../Custom Code/ConfigINI(deperacated)/TypeDefs/LimitConfig.ctl"/>
-					<Item Name="MotorConfig.ctl" Type="VI" URL="../Custom Code/ConfigINI(deperacated)/TypeDefs/MotorConfig.ctl"/>
-				</Item>
-				<Item Name="ConfigMain_Dash.vi" Type="VI" URL="../Custom Code/ConfigINI(deperacated)/ConfigMain_Dash.vi"/>
-				<Item Name="ConfigUI_Template.vit" Type="VI" URL="../Custom Code/ConfigINI(deperacated)/ConfigUI_Template.vit"/>
-				<Item Name="ReadControlKey.vi" Type="VI" URL="../Custom Code/ConfigINI(deperacated)/ReadControlKey.vi"/>
-				<Item Name="SaveConfig.vi" Type="VI" URL="../Custom Code/ConfigINI(deperacated)/SaveConfig.vi"/>
-				<Item Name="WriteClusterToFile.vi" Type="VI" URL="../Custom Code/ConfigINI(deperacated)/WriteClusterToFile.vi"/>
-				<Item Name="WriteControlKey.vi" Type="VI" URL="../Custom Code/ConfigINI(deperacated)/WriteControlKey.vi"/>
-				<Item Name="ReadClusterFromFile.vi" Type="VI" URL="../Custom Code/ConfigINI(deperacated)/ReadClusterFromFile.vi"/>
-				<Item Name="LoadConfig_Dash.vi" Type="VI" URL="../Custom Code/ConfigINI(deperacated)/LoadConfig_Dash.vi"/>
-			</Item>
-			<Item Name="General" Type="Folder">
-				<Item Name="RemoteFiles" Type="Folder">
-					<Item Name="putFile.vi" Type="VI" URL="../Custom Code/General/RemoteFiles/putFile.vi"/>
-					<Item Name="getFile.vi" Type="VI" URL="../Custom Code/General/RemoteFiles/getFile.vi"/>
-					<Item Name="connectionData.ctl" Type="VI" URL="../Custom Code/General/RemoteFiles/connectionData.ctl"/>
-				</Item>
-				<Item Name="PanelResizeControl.vi" Type="VI" URL="../Custom Code/General/PanelResizeControl.vi"/>
-				<Item Name="StopControl.vi" Type="VI" URL="../Custom Code/General/StopControl.vi"/>
-				<Item Name="DashboardCore.vi" Type="VI" URL="../Custom Code/General/DashboardCore.vi"/>
-				<Item Name="GetFileCreationDate.vi" Type="VI" URL="../Custom Code/General/GetFileCreationDate.vi"/>
-			</Item>
+		<Item Name="src" Type="Folder">
 			<Item Name="AutoScripting" Type="Folder">
-				<Item Name="Utility" Type="Folder">
-					<Item Name="AddStepToTree.vi" Type="VI" URL="../Custom Code/AutoScripting/old/AddStepToTree.vi"/>
-					<Item Name="AppendCommandsToStep.vi" Type="VI" URL="../Custom Code/AutoScripting/old/AppendCommandsToStep.vi"/>
-					<Item Name="AscriptStepsToText.vi" Type="VI" URL="../Custom Code/AutoScripting/old/AscriptStepsToText.vi"/>
-					<Item Name="CheckAscriptIntegrity_DashSide.vi" Type="VI" URL="../Custom Code/AutoScripting/old/CheckAscriptIntegrity_DashSide.vi"/>
-					<Item Name="getchildren.vi" Type="VI" URL="../Custom Code/AutoScripting/old/getchildren.vi"/>
-					<Item Name="GetMetadataVariable.vi" Type="VI" URL="../Custom Code/AutoScripting/old/GetMetadataVariable.vi"/>
-					<Item Name="InsertArgs.vi" Type="VI" URL="../Custom Code/AutoScripting/old/InsertArgs.vi"/>
-					<Item Name="KeyPressLogger.vi" Type="VI" URL="../Custom Code/AutoScripting/old/KeyPressLogger.vi"/>
-					<Item Name="ParseSteps.vi" Type="VI" URL="../Custom Code/AutoScripting/old/ParseSteps.vi"/>
-					<Item Name="PopulateAscriptTree.vi" Type="VI" URL="../Custom Code/AutoScripting/old/PopulateAscriptTree.vi"/>
-					<Item Name="SaveAutoFile.vi" Type="VI" URL="../Custom Code/AutoScripting/old/SaveAutoFile.vi"/>
-					<Item Name="SaveStepToFile.vi" Type="VI" URL="../Custom Code/AutoScripting/old/SaveStepToFile.vi"/>
-				</Item>
 				<Item Name="General" Type="Folder">
-					<Item Name="PopupWindowHandler.vi" Type="VI" URL="../Custom Code/AutoScripting/General/PopupWindowHandler.vi"/>
+					<Item Name="PopupWindowHandler.vi" Type="VI" URL="../src/AutoScripting/General/PopupWindowHandler.vi"/>
 				</Item>
 				<Item Name="Globals" Type="Folder">
-					<Item Name="ReferencesGlobal.vi" Type="VI" URL="../Custom Code/AutoScripting/Globals/ReferencesGlobal.vi"/>
-					<Item Name="StepGlobal.vi" Type="VI" URL="../Custom Code/AutoScripting/Globals/StepGlobal.vi"/>
+					<Item Name="ReferencesGlobal.vi" Type="VI" URL="../src/AutoScripting/Globals/ReferencesGlobal.vi"/>
+					<Item Name="StepGlobal.vi" Type="VI" URL="../src/AutoScripting/Globals/StepGlobal.vi"/>
 				</Item>
-				<Item Name="UserInterfaces" Type="Folder">
-					<Item Name="TemplateLoadUI.vi" Type="VI" URL="../Custom Code/AutoScripting/old/TemplateLoadUI.vi"/>
-					<Item Name="StepLoadUI.vi" Type="VI" URL="../Custom Code/AutoScripting/old/StepLoadUI.vi"/>
+				<Item Name="old" Type="Folder">
+					<Item Name="AddStepToTree.vi" Type="VI" URL="../src/AutoScripting/old/AddStepToTree.vi"/>
+					<Item Name="AppendCommandsToStep.vi" Type="VI" URL="../src/AutoScripting/old/AppendCommandsToStep.vi"/>
+					<Item Name="AscriptStepsToText.vi" Type="VI" URL="../src/AutoScripting/old/AscriptStepsToText.vi"/>
+					<Item Name="CheckAscriptIntegrity_DashSide.vi" Type="VI" URL="../src/AutoScripting/old/CheckAscriptIntegrity_DashSide.vi"/>
+					<Item Name="getchildren.vi" Type="VI" URL="../src/AutoScripting/old/getchildren.vi"/>
+					<Item Name="GetMetadataVariable.vi" Type="VI" URL="../src/AutoScripting/old/GetMetadataVariable.vi"/>
+					<Item Name="InsertArgs.vi" Type="VI" URL="../src/AutoScripting/old/InsertArgs.vi"/>
+					<Item Name="KeyPressLogger.vi" Type="VI" URL="../src/AutoScripting/old/KeyPressLogger.vi"/>
+					<Item Name="ParseSteps.vi" Type="VI" URL="../src/AutoScripting/old/ParseSteps.vi"/>
+					<Item Name="PopulateAscriptTree.vi" Type="VI" URL="../src/AutoScripting/old/PopulateAscriptTree.vi"/>
+					<Item Name="SaveAutoFile.vi" Type="VI" URL="../src/AutoScripting/old/SaveAutoFile.vi"/>
+					<Item Name="SaveStepToFile.vi" Type="VI" URL="../src/AutoScripting/old/SaveStepToFile.vi"/>
+					<Item Name="StepLoadUI.vi" Type="VI" URL="../src/AutoScripting/old/StepLoadUI.vi"/>
+					<Item Name="TemplateLoadUI.vi" Type="VI" URL="../src/AutoScripting/old/TemplateLoadUI.vi"/>
 				</Item>
-				<Item Name="AscriptPluginMain.vi" Type="VI" URL="../Custom Code/AutoScripting/AscriptPluginMain.vi"/>
+				<Item Name="AscriptPluginMain.vi" Type="VI" URL="../src/AutoScripting/AscriptPluginMain.vi"/>
+			</Item>
+			<Item Name="ConfigINI(deperacated)" Type="Folder">
+				<Item Name="TypeDefs" Type="Folder">
+					<Item Name="AdvancedMotor.ctl" Type="VI" URL="../src/ConfigINI(deperacated)/TypeDefs/AdvancedMotor.ctl"/>
+					<Item Name="ControlData.ctl" Type="VI" URL="../src/ConfigINI(deperacated)/TypeDefs/ControlData.ctl"/>
+					<Item Name="EncoderConfig.ctl" Type="VI" URL="../src/ConfigINI(deperacated)/TypeDefs/EncoderConfig.ctl"/>
+					<Item Name="LimitConfig.ctl" Type="VI" URL="../src/ConfigINI(deperacated)/TypeDefs/LimitConfig.ctl"/>
+					<Item Name="MotorConfig.ctl" Type="VI" URL="../src/ConfigINI(deperacated)/TypeDefs/MotorConfig.ctl"/>
+				</Item>
+				<Item Name="ConfigMain_Dash.vi" Type="VI" URL="../src/ConfigINI(deperacated)/ConfigMain_Dash.vi"/>
+				<Item Name="ConfigUI_Template.vit" Type="VI" URL="../src/ConfigINI(deperacated)/ConfigUI_Template.vit"/>
+				<Item Name="GeneralConfigMain.vi" Type="VI" URL="../src/ConfigINI(deperacated)/GeneralConfigMain.vi"/>
+				<Item Name="LoadConfig_Dash.vi" Type="VI" URL="../src/ConfigINI(deperacated)/LoadConfig_Dash.vi"/>
+				<Item Name="ReadClusterFromFile.vi" Type="VI" URL="../src/ConfigINI(deperacated)/ReadClusterFromFile.vi"/>
+				<Item Name="ReadControlKey.vi" Type="VI" URL="../src/ConfigINI(deperacated)/ReadControlKey.vi"/>
+				<Item Name="SaveConfig.vi" Type="VI" URL="../src/ConfigINI(deperacated)/SaveConfig.vi"/>
+				<Item Name="WriteClusterToFile.vi" Type="VI" URL="../src/ConfigINI(deperacated)/WriteClusterToFile.vi"/>
+				<Item Name="WriteControlKey.vi" Type="VI" URL="../src/ConfigINI(deperacated)/WriteControlKey.vi"/>
 			</Item>
 			<Item Name="ConfigXML" Type="Folder">
 				<Item Name="src" Type="Folder">
-					<Item Name="fetchFromTarget.vi" Type="VI" URL="../Custom Code/ConfigXML/src/fetchFromTarget.vi"/>
-					<Item Name="getFileName.vi" Type="VI" URL="../Custom Code/ConfigXML/src/getFileName.vi"/>
-					<Item Name="ConfigXMLControl.ctl" Type="VI" URL="../Custom Code/ConfigXML/src/ConfigXMLControl.ctl"/>
-					<Item Name="ConfigXMLCore.vi" Type="VI" URL="../Custom Code/ConfigXML/src/ConfigXMLCore.vi"/>
-					<Item Name="loadControls.vi" Type="VI" URL="../Custom Code/ConfigXML/src/loadControls.vi"/>
-					<Item Name="saveControls.vi" Type="VI" URL="../Custom Code/ConfigXML/src/saveControls.vi"/>
-					<Item Name="loadControlsFromTarget.vi" Type="VI" URL="../Custom Code/ConfigXML/src/loadControlsFromTarget.vi"/>
-					<Item Name="UploadToTarget.vi" Type="VI" URL="../Custom Code/ConfigXML/src/UploadToTarget.vi"/>
-					<Item Name="updateWindowMode.vi" Type="VI" URL="../Custom Code/ConfigXML/src/updateWindowMode.vi"/>
+					<Item Name="ConfigXMLControl.ctl" Type="VI" URL="../src/ConfigXML/src/ConfigXMLControl.ctl"/>
+					<Item Name="ConfigXMLCore.vi" Type="VI" URL="../src/ConfigXML/src/ConfigXMLCore.vi"/>
+					<Item Name="fetchFromTarget.vi" Type="VI" URL="../src/ConfigXML/src/fetchFromTarget.vi"/>
+					<Item Name="getFileName.vi" Type="VI" URL="../src/ConfigXML/src/getFileName.vi"/>
+					<Item Name="loadControls.vi" Type="VI" URL="../src/ConfigXML/src/loadControls.vi"/>
+					<Item Name="loadControlsFromTarget.vi" Type="VI" URL="../src/ConfigXML/src/loadControlsFromTarget.vi"/>
+					<Item Name="saveControls.vi" Type="VI" URL="../src/ConfigXML/src/saveControls.vi"/>
+					<Item Name="updateWindowMode.vi" Type="VI" URL="../src/ConfigXML/src/updateWindowMode.vi"/>
+					<Item Name="UploadToTarget.vi" Type="VI" URL="../src/ConfigXML/src/UploadToTarget.vi"/>
+					<Item Name="viewConfigText.vi" Type="VI" URL="../src/ConfigXML/src/viewConfigText.vi"/>
 				</Item>
-				<Item Name="Controls" Type="Folder">
-					<Item Name="PIDControl.ctl" Type="VI" URL="../Custom Code/ConfigXML/typedefs/PIDControl.ctl"/>
-					<Item Name="MotorControl.ctl" Type="VI" URL="../Custom Code/ConfigXML/typedefs/MotorControl.ctl"/>
-					<Item Name="LimitControl.ctl" Type="VI" URL="../Custom Code/ConfigXML/typedefs/LimitControl.ctl"/>
-					<Item Name="EncoderControl.ctl" Type="VI" URL="../Custom Code/ConfigXML/typedefs/EncoderControl.ctl"/>
-					<Item Name="SetpointArrControl.ctl" Type="VI" URL="../Custom Code/ConfigXML/typedefs/SetpointArrControl.ctl"/>
-					<Item Name="BasicSubsystem.ctl" Type="VI" URL="../Custom Code/ConfigXML/typedefs/BasicSubsystem.ctl"/>
+				<Item Name="typedefs" Type="Folder">
+					<Item Name="BasicSubsystem.ctl" Type="VI" URL="../src/ConfigXML/typedefs/BasicSubsystem.ctl"/>
+					<Item Name="EncoderControl.ctl" Type="VI" URL="../src/ConfigXML/typedefs/EncoderControl.ctl"/>
+					<Item Name="LimitControl.ctl" Type="VI" URL="../src/ConfigXML/typedefs/LimitControl.ctl"/>
+					<Item Name="MotorControl.ctl" Type="VI" URL="../src/ConfigXML/typedefs/MotorControl.ctl"/>
+					<Item Name="PIDControl.ctl" Type="VI" URL="../src/ConfigXML/typedefs/PIDControl.ctl"/>
+					<Item Name="SetpointArrControl.ctl" Type="VI" URL="../src/ConfigXML/typedefs/SetpointArrControl.ctl"/>
 				</Item>
-				<Item Name="ConfigUI_TemplateXML.vit" Type="VI" URL="../Custom Code/ConfigXML/ConfigUI_TemplateXML.vit"/>
+				<Item Name="ConfigUI_TemplateXML.vit" Type="VI" URL="../src/ConfigXML/ConfigUI_TemplateXML.vit"/>
+			</Item>
+			<Item Name="General" Type="Folder">
+				<Item Name="RemoteFiles" Type="Folder">
+					<Item Name="connectionData.ctl" Type="VI" URL="../src/General/RemoteFiles/connectionData.ctl"/>
+					<Item Name="getFile.vi" Type="VI" URL="../src/General/RemoteFiles/getFile.vi"/>
+					<Item Name="sshExec.vi" Type="VI" URL="../src/General/RemoteFiles/sshExec.vi"/>
+					<Item Name="plink.exe" Type="Document" URL="../src/General/RemoteFiles/plink.exe"/>
+					<Item Name="pscp.exe" Type="Document" URL="../src/General/RemoteFiles/pscp.exe"/>
+					<Item Name="putFile.vi" Type="VI" URL="../src/General/RemoteFiles/putFile.vi"/>
+				</Item>
+				<Item Name="DashboardCore.vi" Type="VI" URL="../src/General/DashboardCore.vi"/>
+				<Item Name="GetFileCreationDate.vi" Type="VI" URL="../src/General/GetFileCreationDate.vi"/>
+				<Item Name="PanelResizeControl.vi" Type="VI" URL="../src/General/PanelResizeControl.vi"/>
+				<Item Name="StopControl.vi" Type="VI" URL="../src/General/StopControl.vi"/>
+			</Item>
+			<Item Name="LoggerViewer" Type="Folder">
+				<Item Name="src" Type="Folder">
+					<Item Name="listRemoteDir.vi" Type="VI" URL="../src/LoggerViewer/src/listRemoteDir.vi"/>
+					<Item Name="FetchRemoteLogUI.vi" Type="VI" URL="../src/LoggerViewer/src/FetchRemoteLogUI.vi"/>
+					<Item Name="LoggerMonitorControlData.ctl" Type="VI" URL="../src/LoggerViewer/src/LoggerMonitorControlData.ctl"/>
+					<Item Name="RemoteLogCore.vi" Type="VI" URL="../src/LoggerViewer/src/RemoteLogCore.vi"/>
+					<Item Name="getTreeSelection.vi" Type="VI" URL="../src/LoggerViewer/src/getTreeSelection.vi"/>
+				</Item>
 			</Item>
 			<Item Name="User" Type="Folder">
 				<Item Name="Controls" Type="Folder">
-					<Item Name="DriveSide.ctl" Type="VI" URL="../Custom Code/User/Controls/DriveSide.ctl"/>
+					<Item Name="DriveSide.ctl" Type="VI" URL="../src/User/Controls/DriveSide.ctl"/>
 				</Item>
-				<Item Name="MainConfigUI.vi" Type="VI" URL="../Custom Code/User/MainConfigUI.vi"/>
+				<Item Name="MainConfigUI.vi" Type="VI" URL="../src/User/MainConfigUI.vi"/>
 			</Item>
 		</Item>
 		<Item Name="Dashboard Main.vi" Type="VI" URL="../Dashboard Main.vi"/>
@@ -258,23 +270,50 @@
 				<Item Name="Find First Error.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find First Error.vi"/>
 				<Item Name="Read Delimited Spreadsheet (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (I64).vi"/>
 				<Item Name="Read Delimited Spreadsheet (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (string).vi"/>
+				<Item Name="LVPointTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPointTypeDef.ctl"/>
+				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
+				<Item Name="GXML.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/GXML/GXML.lvlib"/>
+				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
+				<Item Name="LVNumericRepresentation.ctl" Type="VI" URL="/&lt;vilib&gt;/numeric/LVNumericRepresentation.ctl"/>
 				<Item Name="Intialize Keyboard.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/Intialize Keyboard.vi"/>
 				<Item Name="errorList.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/errorList.vi"/>
 				<Item Name="Acquire Input Data.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/Acquire Input Data.vi"/>
 				<Item Name="joystickAcquire.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/joystickAcquire.vi"/>
 				<Item Name="keyboardAcquire.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/keyboardAcquire.vi"/>
 				<Item Name="mouseAcquire.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/mouseAcquire.vi"/>
-				<Item Name="LVPointTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPointTypeDef.ctl"/>
 				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
-				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
-				<Item Name="GXML.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/GXML/GXML.lvlib"/>
-				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
-				<Item Name="LVNumericRepresentation.ctl" Type="VI" URL="/&lt;vilib&gt;/numeric/LVNumericRepresentation.ctl"/>
+				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
+				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
+				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
+				<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
+				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
+				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
+				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
+				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
+				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
+				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
+				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
+				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
+				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
+				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
+				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
+				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
+				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
+				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
+				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
+				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
+				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
+				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
+				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
+				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
+				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
+				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
+				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 			</Item>
-			<Item Name="lvinput.dll" Type="Document" URL="/&lt;resource&gt;/lvinput.dll"/>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="lvinput.dll" Type="Document" URL="/&lt;resource&gt;/lvinput.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC_Dashboard" Type="EXE">

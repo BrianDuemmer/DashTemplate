@@ -95,14 +95,17 @@
 				<Item Name="GetFileCreationDate.vi" Type="VI" URL="../src/General/GetFileCreationDate.vi"/>
 				<Item Name="PanelResizeControl.vi" Type="VI" URL="../src/General/PanelResizeControl.vi"/>
 				<Item Name="StopControl.vi" Type="VI" URL="../src/General/StopControl.vi"/>
+				<Item Name="TargetNTHandshake.vi" Type="VI" URL="../src/General/TargetNTHandshake.vi"/>
 			</Item>
 			<Item Name="LoggerViewer" Type="Folder">
 				<Item Name="src" Type="Folder">
 					<Item Name="listRemoteDir.vi" Type="VI" URL="../src/LoggerViewer/src/listRemoteDir.vi"/>
-					<Item Name="FetchRemoteLogUI.vi" Type="VI" URL="../src/LoggerViewer/src/FetchRemoteLogUI.vi"/>
 					<Item Name="LoggerMonitorControlData.ctl" Type="VI" URL="../src/LoggerViewer/src/LoggerMonitorControlData.ctl"/>
 					<Item Name="RemoteLogCore.vi" Type="VI" URL="../src/LoggerViewer/src/RemoteLogCore.vi"/>
 					<Item Name="getTreeSelection.vi" Type="VI" URL="../src/LoggerViewer/src/getTreeSelection.vi"/>
+					<Item Name="FetchRemoteLogUI.vit" Type="VI" URL="../src/LoggerViewer/src/FetchRemoteLogUI.vit"/>
+					<Item Name="RoboLogUI.vi" Type="VI" URL="../src/User/RoboLogUI.vi"/>
+					<Item Name="PiLogUI.vi" Type="VI" URL="../src/User/PiLogUI.vi"/>
 				</Item>
 			</Item>
 			<Item Name="User" Type="Folder">
@@ -110,6 +113,9 @@
 					<Item Name="DriveSide.ctl" Type="VI" URL="../src/User/Controls/DriveSide.ctl"/>
 				</Item>
 				<Item Name="MainConfigUI.vi" Type="VI" URL="../src/User/MainConfigUI.vi"/>
+			</Item>
+			<Item Name="NTViewer" Type="Folder">
+				<Item Name="NTViewerUI.vi" Type="VI" URL="../src/NTViewer/NTViewerUI.vi"/>
 			</Item>
 		</Item>
 		<Item Name="Dashboard Main.vi" Type="VI" URL="../Dashboard Main.vi"/>
@@ -309,6 +315,10 @@
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
+				<Item Name="Connection Info.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Connection Info.vi"/>
+				<Item Name="Prepare Tree Entries.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Prepare Tree Entries.vi"/>
+				<Item Name="NT Format Generic  to String.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/NT Format Generic  to String.vi"/>
+				<Item Name="NT Read and Format Entries as Tree.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/NT Read and Format Entries as Tree.vi"/>
 			</Item>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
